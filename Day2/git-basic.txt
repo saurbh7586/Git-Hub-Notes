@@ -1,14 +1,273 @@
-git push origin main = Used to upload changes to GitHub
+# Day2 - Git Intermediate Commands
 
-git pull origin main = Used to download latest changes from GitHub
+## git push origin main
 
-git restore --staged <file-name> = Used to remove file from staging area (unstage file)
+Definition:
+Used to upload local commits/changes from local repository to remote GitHub repository.
 
-git restore <file-name> = Used to discard changes from working directory and restore original file
+Syntax:
+git push origin main
 
-git config --global user.name "Your Name" = Used to configure Git username
+Meaning:
 
-git config --global user.email "yourmail@gmail.com" = Used to configure Git email
+* origin = Remote GitHub repository
+* main = Branch name
 
-git checkout = Used to switch branch
+Real Use Case:
+Used after commit to upload latest project changes to GitHub.
+
+---
+
+## git pull origin main
+
+Definition:
+Used to download latest changes from remote GitHub repository to local repository.
+
+Syntax:
+git pull origin main
+
+Meaning:
+
+* Pull = Fetch + Merge
+
+Real Use Case:
+Used before starting work in team environment to get latest updates.
+
+---
+
+## git restore --staged <file-name>
+
+Definition:
+Used to remove file from staging area (unstage file).
+
+Syntax:
+git restore --staged <file-name>
+
+Example:
+git restore --staged README.md
+
+Real Use Case:
+Used when wrong file is added accidentally using git add.
+
+Important:
+File is not deleted.
+Only removed from staging area.
+
+---
+
+## git restore <file-name>
+
+Definition:
+Used to discard changes from working directory and restore original file.
+
+Syntax:
+git restore <file-name>
+
+Example:
+git restore README.md
+
+Real Use Case:
+Used when unwanted changes are made in file.
+
+Important:
+Modified changes will be lost permanently.
+
+---
+
+## git config --global user.name
+
+Definition:
+Used to configure Git username globally.
+
+Syntax:
+git config --global user.name "Your Name"
+
+Example:
+git config --global user.name "Saurabh"
+
+Real Use Case:
+Used for identifying commit author name.
+
+---
+
+## git config --global user.email
+
+Definition:
+Used to configure Git email globally.
+
+Syntax:
+git config --global user.email "[yourmail@gmail.com](mailto:yourmail@gmail.com)"
+
+Example:
+git config --global user.email "[saurabh@gmail.com](mailto:saurabh@gmail.com)"
+
+Real Use Case:
+Used for identifying commit author email.
+
+---
+
+## git checkout
+
+Definition:
+Used to switch from one branch to another branch.
+
+Syntax:
+git checkout <branch-name>
+
+Example:
+git checkout main
+
+Real Use Case:
+Used while working on multiple features and branches.
+
+---
+
+## git checkout -b
+
+Definition:
+Used to create and switch new branch.
+
+Syntax:
+git checkout -b <branch-name>
+
+Example:
+git checkout -b dev
+
+Real Use Case:
+Used when creating new feature branch.
+
+---
+
+## git branch
+
+Definition:
+Used to display available branches in repository.
+
+Syntax:
+git branch
+
+Real Use Case:
+Checking current active branch.
+
+Example Output:
+
+* main
+
+Important:
+
+* indicates current branch.
+
+---
+
+## git merge
+
+Definition:
+Used to combine one branch into another branch.
+
+Syntax:
+git merge <branch-name>
+
+Example:
+git merge dev
+
+Real Use Case:
+Used after completing feature development.
+
+---
+
+## git log
+
+Definition:
+Used to display commit history.
+
+Syntax:
+git log
+
+Real Use Case:
+Tracking previous commits and project history.
+
+---
+
+## git diff
+
+Definition:
+Used to display file changes between working directory and repository.
+
+Syntax:
+git diff
+
+Real Use Case:
+Checking modified content before commit.
+
+---
+
+## git stash
+
+Definition:
+Used to temporarily save uncommitted changes.
+
+Syntax:
+git stash
+
+Real Use Case:
+Used when switching branch without committing current work.
+
+---
+
+## git fetch
+
+Definition:
+Used to fetch latest updates from remote repository without merging.
+
+Syntax:
+git fetch
+
+Real Use Case:
+Checking latest remote changes safely before merge.
+
+---
+
+## git remote -v
+
+Definition:
+Used to display remote repository details.
+
+Syntax:
+git remote -v
+
+Real Use Case:
+Checking connected GitHub repository URLs.
+
+---
+
+## git rm
+
+Definition:
+Used to remove file from Git repository.
+
+Syntax:
+git rm <file-name>
+
+Example:
+git rm test.txt
+
+Real Use Case:
+Deleting unnecessary files from repository.
+
+---
+
+## git mv
+
+Definition:
+Used to move or rename file in Git repository.
+
+Syntax:
+git mv <old-name> <new-name>
+
+Example:
+git mv old.txt new.txt
+
+Real Use Case:
+Renaming project files properly with Git tracking.
+
 
