@@ -1,0 +1,12 @@
+git push origin main = Used to upload changes to GitHub
+
+git pull origin main = Used to download latest changes from GitHub
+
+git restore --staged <file-name> = Used to remove file from staging area (unstage file)
+
+git restore <file-name> = Used to discard changes from working directory and restore original file
+
+git config --global user.name "Your Name" = Used to configure Git username
+
+git config --global user.email "yourmail@gmail.com" = Used to configure Git email
+

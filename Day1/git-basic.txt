@@ -1,0 +1,13 @@
+Git is a distributed version control system used to track changes in files, manage source code, and collaborate with multiple developers.
+
+git init = Used to initialize new Git repository
+
+git clone = Used to download/copy GitHub repository
+
+git status = Used to check repository status
+
+git add . = Used to add changes to staging area
+
+git commit -m = Used to save changes in local repository
+
+git log = Used to display commit history
