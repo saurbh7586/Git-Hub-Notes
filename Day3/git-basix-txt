@@ -1,0 +1,90 @@
+#SSH-SECURE SHELL#
+*How To Genrate SSH Key*
+
+@There are Two Keys 
+1> Public Key
+2> Private Key
+
+#Command To Genrate Ssh Key
+
+#ssh-keygen
+    [blank enter]
+    [blank enter]
+    [blank enter]
+    
+#ls-----
+       ' 
+       '     
+#cd- -.ssh 
+       '
+       '
+       ' 
+#ls- - '------(Public Id_rsa.pub)--- 
+       '                           '      
+       '------(Private_Id)         '    
+                                   '
+                                 #ls Public Id_rsa.pub
+                                 (mannually copy right click + copy the public key)
+                                              ^    
+- - - - - - - - - - - - - - - - - - - - - - - ' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+@GO TO GITHUB ACCOUNT@                        ' 
+        '                                     ' 
+        '                                     '
+        '                                     '
+     SETTING                                  '
+        '                                     '  
+        '                                     '  
+        '                                     '  
+    SSH & GPG KEYS                            '
+        '                                     ' 
+        '                                     '
+        '                                     '  
+   ADD NEW SSH KEY                            '
+ (Paste The Publickey)<-----------------------'
+        '
+        '    
+        '
+      ADD IT 
+- - - - - - - - - - - - - - - - - - - -- - - - - - - - - - -- -  --  -- - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+@HOW TO ESATABLISH CONNECTION USSING (SSH)@
+    
+  #COPY LINK USING SSH
+         '
+         '
+         '
+   #git clone ssh
+         '
+         '
+         '
+    #vim Redeme.md
+         '
+         '  
+         '
+    #git add .
+         '
+         '
+         '
+   #git commit -m "new commit" 
+         '
+         '
+         '
+   #git push origin  main
+         '
+         '
+         '
+   #Now You can see the git can not ask
+    for  "username or password"
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
