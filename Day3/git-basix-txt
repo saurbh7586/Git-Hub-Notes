@@ -74,7 +74,17 @@
          '
    #Now You can see the git can not ask
     for  "username or password"
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - -  
+Diffrence between Clone & Pull command
 
+To Dowanload latest repository suppose you cloned repository yesterday with two files,
+but other user added some files into the repository so what happen if you pull command,
+it dowanload latest updated files not old cloned
+
+#git pull repositoryname
+
+
+After making or added file into repository next time use (Pull command)
 
 
 
