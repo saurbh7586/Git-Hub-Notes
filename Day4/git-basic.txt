@@ -1,0 +1,53 @@
+BRANCHING STATERGY
+
+*How To Show Branch*
+#git branch
+
+
+*To Create Branch or Switch it*
+#git checkout -b  Dev
+               |    |
+               |    |___| 
+           (branch)  (Branch Name)
+
+*To rename the branch*
+#git branch  -m   newname
+
+*To chagne or rename any branch name*
+#git branch  -m   oldname   newname
+
+
+*To switch specific branch*
+#git checkout branchname
+
+*To create new branch without switch*
+#git branch  branchname
+
+*To clone or dowanload specific brnach
+#git clone -b  branchname
+
+- - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - -
+How To Create Branches and Copy One Branch to Another Branch
+
+STRUCTURE:
+      F1,F2,F3,F4- - - - - - - - - - -> F1,F2,F3,F4 - - - - - - - - - - ->F1,F2,F3
+Main o-------------------------------Devo-------------------------------Testo------------------
+                            (Copied data as it is
+                             From Main, but you made 
+                             changes here del F4 file)
+                                  
+#git branch  
+  *main------                                         
+     ^       '
+     '       '
+     '       '    #git branch Dev
+     '       '- - ->*Dev-----------  
+     '                             '
+     '                             '       #git checkout -b test
+     '                             '---------> *test------------------#git merge
+     '                                                                   '
+     '                                                                   ' 
+     '                                                                   ' 
+     ' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - '
+
+
