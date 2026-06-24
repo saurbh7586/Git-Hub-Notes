@@ -1,0 +1,25 @@
+*To revert commad if you want to back from satagging Area
+#git revert commit-ID
+
+
+*Fetch Command Update only Synch Not show
+*To Synchronise*
+#git fetch origin main
+
+
+*To delete the Branch*
+#git delete -b Branchname
+
+*To pic perticular commit we use chery pic command
+#git cherry-pick commit-ID
+
+
+*This command is used to connect a local Git repository to a remote repository (like GitHub)
+#git remote add origin repositoryurl
+#git branch -M main
+#git push -u origin main
+      '               '
+      '               '
+      - - - - - - - - - 
+      pushing branch to main 
+       remote repo 
