@@ -23,3 +23,11 @@
       - - - - - - - - - 
       pushing branch to main 
        remote repo 
+
+
+*Fetch command dowanload update but cant show the updates
+#git fetch
+
+#And we use rebase command with fetch to merger update as weel show
+#git rebase
+
